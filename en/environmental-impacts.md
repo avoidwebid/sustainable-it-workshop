@@ -142,7 +142,7 @@ Go to [fruggr.io](https://www.fruggr.io/).
 - Go to the `Network` tab and `slow 3G` in the `throttling` menu to simulate loading with a bad 3G connection
 - Identify the percentage of unused javascript and css with the `Coverage` tool in `More tools`.
 
-  ![devtools-moretools.png](devtools-moretools.png)
+  ![devtools-moretools.png](../resources/devtools-moretools.png)
 
 
 - In the `Lighthouse` tab you will find a tool that offers a number of indicators.

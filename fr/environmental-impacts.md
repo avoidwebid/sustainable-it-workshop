@@ -140,7 +140,7 @@ Rendez-vous sur [fruggr.io](https://www.fruggr.io/).
 - Ouvrez le navigateur chromium de votre choix (chrome, brave, edge ...) et lancez les devtools.
 - Rendez-vous dans l'onglet `Network` et `slow 3G` dans le menu de `throttling` pour simuler le chargement avec une mauvaise connexion 3G
 - Identifier le pourcentage de javascript et de css non utilisé avec l'outil `Coverage` dans `More tools`.
-  ![img.png](devtools-moretools.png)
+  ![img.png](../resources/devtools-moretools.png)
 - Dans l'onglet `Lighthouse` vous trouverez un outil vous proposant un certain nombre d'indicateurs.
 
 👉 Lancez une analyse `Lighthouse` sur le site choisi et **notez 3 points à améliorer**.
