@@ -3,7 +3,7 @@ Workshop autour des impacts du numérique.
 
 🌱 Avec un focus sur les impacts environnementaux pour cette première partie.
 
-L'objectif en sortie de cette atelier : en tant qu'ingénieur, vous positionner et maîtriser les ordres de grandeurs des impacts environnementaux du numérique.
+L'objectif en sortie de cet atelier : en tant qu'ingénieur, vous positionner et maîtriser les ordres de grandeurs des impacts environnementaux du numérique.
 
 Le but est de travailler par itérations, comme dans un contexte professionnel.
 
@@ -19,7 +19,7 @@ Vous allez devoir construire un argumentaire autour du sujet.
 ## MOOC de l'INR
 **⏱ 1 heure**
 
-Suivez le mooc de l'INR à cette adresse : https://www.academie-nr.org/sensibilisation
+Suivez le MOOC de l'INR à cette adresse : https://www.academie-nr.org/sensibilisation
 
 Esprit de synthèse :
 - Prenez des notes de ce qui vous marque (chiffres, phrases clefs etc...).
@@ -85,7 +85,7 @@ Vous avez dit `JAMStack` ? C'est quoi et quels sont les avantages d'un point de 
 `GraphQL` c'est quoi ? Et par rapport aux API `REST` ? En quoi c'est mieux pour la planète ?
 
 ### 6. Islands Architecture
-Qu'est ce que le concept de micro-frontend ou encore les `Islands Architecture` ?
+Qu'est-ce que le concept de micro-frontend ou encore les `Islands Architecture` ?
 
 `#SSR` `#CSR` `#SSG`
 
@@ -118,7 +118,7 @@ Identifiez les interrogations restantes et les parties du sujet qui restent à c
 
 Explorez les dernières interrogations et zones d'ombres.
 
-Synthétisez vos découvertes de manière a pouvoir les présenter au groupe.
+Synthétisez vos découvertes de manière à pouvoir les présenter au groupe.
 
 ## Restitution
 **⏱ 30 minutes**
