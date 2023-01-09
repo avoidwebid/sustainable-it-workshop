@@ -8,6 +8,13 @@ Le but est de travailler par itérations, comme dans un contexte professionnel.
 
 # 📓 Maîtrise du sujet
 
+Vous allez devoir construire un argumentaire autour du sujet. 
+
+Les objectifs :
+- S'imprégner du sujet pour avoir les chiffres et le vocabulaire.
+- Construire un argumentaire pour promouvoir le sujet.
+- Par groupe de 3 ou 4, présenter votre démarche.
+
 ## MOOC de l'INR
 **⏱ 1 heure**
 
@@ -15,14 +22,21 @@ Suivez le mooc de l'INR à cette adresse : https://www.academie-nr.org/sensibili
 
 Esprit de synthèse :
 - Prenez des notes de ce qui vous marque (chiffres, phrases clefs etc...).
-- Vous pouvez dessiner, faire des schémas, du sketchnoting.
+- Vous pouvez dessiner, faire des schémas, du `sketch noting`.
 - Structurez un pitch pour la promotion d'un numérique plus responsable à partir de vos observations.
-- No slide : structurez votre discours sur le modèle de pitch [start with why](https://youtu.be/u4ZoJKF_VuA?t=125).
+- Structurez votre discours sur le modèle de pitch [start with why](https://youtu.be/u4ZoJKF_VuA?t=125).
+
+Les points à creuser ensemble :
+- Faites le bilan de votre activité numérique avec [la calculette INR](https://myimpact.isit-europe.org/fr/)
+- Consultez les référentiels :
+  - [GR 491](https://gr491.isit-europe.org/) : le Guide de Référence de Conception Responsable de Services Numériques.
+  - [Les ODD](https://www.un.org/sustainabledevelopment/fr/objectifs-de-developpement-durable/) : Les Objectifs de Développement Durable de L'ONU
+  - [RGESN](https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/) : le Référentiel Général d'Écoconception de Services Numériques.
 
 ## Consolidation
 **⏱ 15 minutes**
 
-👋 Formez des groupes de 3 personnes.
+Votre sujet : **🤔 Pourquoi mettre en place une stratégie numérique responsable au sein d'une entreprise ?**
 
 - Partagez vos notes et consolidez un pitch.
 - Répartissez-vous le temps de parole.
@@ -41,7 +55,7 @@ Les autres seront amenés à noter de 👍1 à 🖐5 leur prestation sur les deu
 
 # 🔥 Architecture pour un numérique soutenable
 
-Vous allez réaliser un atelier d'**🔥Xtreme Tech watch**.
+Vous allez réaliser un atelier inspiré d'**🔥Xtreme Tech watch**.
 
 Il s'agit d'un atelier **d'intelligence collective** vous permettant de capter rapidement de l'information sur des sujets tech variés et en très peu de temps.
 > Plus d'info sur le site [speaker deck de Yoan Thirion](https://speakerdeck.com/thirion/xtrem-tech-watch-9997c945-5122-462b-9e18-6913ef56a112?slide=3)
@@ -50,6 +64,8 @@ Il s'agit d'un atelier **d'intelligence collective** vous permettant de capter r
 
 ### 1. Virtualisation et containerisation des infrastructures
 Quelles ont été l'évolution des technologies de virtualisation des serveurs et qu'apporte la containerisation ?
+
+`#docker` `#kubernetes`
 
 ### 2. Serverless Architecture
 C'est quoi le `serverless` et en quoi ça consomme moins de ressources / d'énergie ?
@@ -61,13 +77,17 @@ Vous avez dit `JAMStack` ? C'est quoi et quels sont les avantages d'un point de 
 `GraphQL` c'est quoi ? Et par rapport aux API `REST` ? En quoi c'est mieux pour la planète ?
 
 ### 5. Micro-services
-Pourquoi faire des `Micro-services` au lieu d'un monolithe applicatif ?
+Pourquoi faire des `Micro-services` au lieu d'un monolithe applicatif d'un point de vue environnemental ?
 
 ### 6. Islands Architecture
 Qu'est ce que le concept de micro-frontend ou encore les `Islands Architecture` ?
 
+`#SSR` `#CSR` `#SSG`
+
 ### 7. Progressive Web Apps
-C'est quoi les `PWA` (Progressive Web Apps) ? Pourquoi c'est plus inclusif qu'une application mobile ?
+C'est quoi les `PWA` (Progressive Web Apps) ? 
+
+Pourquoi c'est plus inclusif qu'une application mobile ?
 
 ## Faites votre choix en solo
 **⏱ 5 minute**
