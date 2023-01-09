@@ -1,6 +1,7 @@
 # 1. Impacts environnementaux du numérique
 Workshop autour des impacts du numérique.
-Avec un focus sur les impacts environnementaux pour cette première partie.
+
+🌱 Avec un focus sur les impacts environnementaux pour cette première partie.
 
 L'objectif en sortie de cette atelier : en tant qu'ingénieur, vous positionner et maîtriser les ordres de grandeurs des impacts environnementaux du numérique.
 
@@ -10,10 +11,10 @@ Le but est de travailler par itérations, comme dans un contexte professionnel.
 
 Vous allez devoir construire un argumentaire autour du sujet. 
 
-Les objectifs :
+🎯 Les objectifs :
 - S'imprégner du sujet pour avoir les chiffres et le vocabulaire.
 - Construire un argumentaire pour promouvoir le sujet.
-- Par groupe de 3 ou 4, présenter votre démarche.
+- Par groupe de 3 ou 4, vous présenterez votre démarche.
 
 ## MOOC de l'INR
 **⏱ 1 heure**
@@ -40,6 +41,7 @@ Votre sujet : **🤔 Pourquoi mettre en place une stratégie numérique responsa
 
 - Partagez vos notes et consolidez un pitch.
 - Répartissez-vous le temps de parole.
+- Vous pouvez utiliser des slides si vous le souhaitez, ce n'est pas un pré-requis.
 
 Le but : en entreprise, vous aurez à vous exprimer sur le sujet, plus vous prenez le temps d'en parler, plus vous intégrer le vocabulaire et serez à l'aise.
 
@@ -56,6 +58,12 @@ Les autres seront amenés à noter de 👍1 à 🖐5 leur prestation sur les deu
 # 🔥 Architecture pour un numérique soutenable
 
 Vous allez réaliser un atelier inspiré d'**🔥Xtreme Tech watch**.
+
+🎯 Les objectifs :
+- Découvrir un sujet inconnu par une exploration rapide.
+- Analyser le sujet d'un point de vue environnemental 🌱 (ressources, énergie etc...).
+- Croiser les découvertes et faire fonctionner l'intelligence collective.
+- Structurer et restituer vos découvertes.
 
 Il s'agit d'un atelier **d'intelligence collective** vous permettant de capter rapidement de l'information sur des sujets tech variés et en très peu de temps.
 > Plus d'info sur le site [speaker deck de Yoan Thirion](https://speakerdeck.com/thirion/xtrem-tech-watch-9997c945-5122-462b-9e18-6913ef56a112?slide=3)
@@ -75,9 +83,6 @@ Vous avez dit `JAMStack` ? C'est quoi et quels sont les avantages d'un point de 
 
 ### 4. GraphQL API
 `GraphQL` c'est quoi ? Et par rapport aux API `REST` ? En quoi c'est mieux pour la planète ?
-
-### 5. Micro-services
-Pourquoi faire des `Micro-services` au lieu d'un monolithe applicatif d'un point de vue environnemental ?
 
 ### 6. Islands Architecture
 Qu'est ce que le concept de micro-frontend ou encore les `Islands Architecture` ?
@@ -124,7 +129,13 @@ C'est le moment de partager vos **découvertes** mais aussi vos **incompréhensi
 
 # ⏸ Pause
 
-# 🎯 La mesure
+# 📐🧭 La mesure
+
+🎯 Les objectifs :
+- Découvrir des outils de mesure et d'amélioration de l'impact d'un service numérique.
+- Identifier et prioriser des axes d'amélioration.
+- Présenter ces résultats d'analyse.
+
 Nous allons tester ensemble les outils de mesure disponibles sur le marché.
 
 👋 Formez des groupes de 3 - 4 personnes.
