@@ -8,13 +8,23 @@ Nous allons vous donner une vision d'ensemble, le vocabulaire et les ressources 
 
 Il s'agit d'un sujet clef trop souvent laissé de côté, donnant lieu à des aberrations que l'on peut rencontrer tous les jours en navigant sur le web.
 
-### Plan
+👉 Pour commencer, 3 contenus vidéo de l'[association Valentin Haüys](https://www.avh.asso.fr/fr) de la séquence `#OnVousVoit`:
+- [Qu'est-ce que l'accessibilité numérique et pourquoi c'est important ?](https://www.youtube.com/watch?v=fZo_ky7_XZ8)
+- [Quatre bonnes raisons de rendre son site internet accessible](https://www.youtube.com/watch?v=cPFYtFEEW7g)
+- [Trois idées reçues sur l'accessibilité numérique](https://www.youtube.com/watch?v=DO26F5oMXbc)
+
+### Plan 
 1. Introduction
 2. Accessibilité : de quoi parle-t-on ?
 3. Vers l’accessible “by design”.
 4. Les outils spécialisés.
 5. Conclusion
 
+### Le référentiel RGAA
+
+> [Référentiel Général d'Amélioration de l'Accessibilité](https://accessibilite.numerique.gouv.fr/)
+
+## ⏸ Pause
 
 ## Utilisation d'un liseuse d'écran
 **⏱ 30 minutes**
@@ -34,18 +44,30 @@ NVDA est une liseuse d'écran très utilisée qui permet aux aveugles et défici
 
 ### Exercice de navigation au clavier
 
+> Naviguez au clavier à l'aide des touches :
+> - `Tab` : Aller à l'élément focusable suivant.
+> - `Maj` + `Tab` : Revenir à l'élément focusable précédent.
+> - `h` : aller au titre de niveau suivant.
+> - `Maj` + `h` : Revenir au titre de niveau précédent.
+>
+> Plus de raccourcis : [Documentation NVDA](https://www.nvda-fr.org/doc/userGuide.html#WebNavigation)
+
+**🤝 Par groupes de 2**
+
 👉 Choisissez un service numérique à naviguer et naviguez à la voix.
+- Réalisez une première navigation et notez les éléments qui vous surprennent
 
-- Naviguez au clavier à l'aide des touches :
-  - `Tab` : Aller à l'élément focusable suivant.
-  - `Maj` + `Tab` : Revenir à l'élément focusable précédent.
-
-👉 Effectuez une action quotidienne uniquement au clavier.
+👉 Effectuez une action quotidienne uniquement au clavier. 
+- Par groupe de deux : 
+  - Une personne aveugle, l'autre voyante.
+  - Fermez les yeux ou utilisez un bandeau (on vous surveille, ne vous endormez pas 😉).
 - Rendez-vous sur le service numérique de votre boîte mail.
 - Rédigez un mail de test et envoyez le à votre voisin de table.
 
 ## 🕵️‍♀️ Détectez les problèmes d'accessibilité
 **⏱ 1 heure**
+
+**🤝 Par groupes de 4**
 
 ### Disclaimer
 Avant tout : en matière d'accessibilité, rien ne remplace une analyse manuelle des services numériques.
@@ -56,8 +78,9 @@ D'après une étude de l'entreprise `Deque` qui a créé l'outil `aXe Core`, il 
 ### Les assistants de diagnostique
 Pour la suite du TP, vous serez amenés à utiliser les outils suivants :
 - Chromium devtools (lighthouse) ou Firefox devtools
-- Fruggr (score social)
-- aXe Core devtools
+- [Fruggr (score social)](https://fruggr.io)
+- [aXe Core devtools](https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd)
+- [Assistant RGAA](https://chrome.google.com/webstore/detail/assistant-rgaa/cgpmofepeeiaaljkcclfldhaalfpcand)
 
 ### Fiche d'analyse
 👉 Renseignez le template d'analyse avec vos observations
@@ -68,20 +91,14 @@ Voici un template pour vous aider :
 
 ![a11y-audit-template.png](../resources/a11y-audit-template.png)
 
+## ⏸ Pause
+
 ### Restitution
+
+**⏱ 50 minutes**
 
 👉 Présentez-nous vos résultats d'analyse par groupe.
 - Présentez-nous votre parcours utilisateur vocalisé
 - Dites-nous les pistes d'amélioration que vous avez détectées.
 - Priorisez 3 actions à effectuer rapidement.
 - Bonus : alertez le service numérique en question sur ses manquements.
-
-## Exercice simple
-
-Les articles disponibles sur le site [Developer Mozilla : Accessibilité](https://developer.mozilla.org/fr/docs/Learn/Accessibility) sont excellents pour commencer.
-
-- Lisez cette page permettant d'obtenir plus d'éléments pour la suite du TP :
-    * [HTML : une bonne base pour l'accessibilité](https://developer.mozilla.org/fr/docs/Learn/Accessibility/HTML)
-    * [Bonnes pratiques d'accessibilité CSS et JavaScript](https://developer.mozilla.org/fr/docs/Learn/Accessibility/CSS_and_JavaScript)
-- Vous trouverez un exercice simple à l'adresse suivantes : [l'accessibilité en CSS et JavaScript
-  ](https://developer.mozilla.org/fr/docs/Learn/Accessibility/CSS_and_JavaScript/Test_your_skills:_CSS_and_JavaScript_accessibility#accessibilit%C3%A9_en_css_-_exercice_1)
