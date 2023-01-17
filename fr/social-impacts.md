@@ -76,11 +76,14 @@ Mais un petit coup de main n'est pas de refus pour les détecter lorsqu'on débu
 D'après une étude de l'entreprise `Deque` qui a créé l'outil `aXe Core`, il est possible d'automatiser 57% des règles du WCAG en niveau A et AA.
 
 ### Les assistants de diagnostique
-Pour la suite du TP, vous serez amenés à utiliser les outils suivants :
+Pour la suite du workshop, vous serez amenés à utiliser les outils suivants :
 - Chromium devtools (lighthouse) ou Firefox devtools
 - [Fruggr (score social)](https://fruggr.io)
 - [aXe Core devtools](https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd)
 - [Assistant RGAA](https://chrome.google.com/webstore/detail/assistant-rgaa/cgpmofepeeiaaljkcclfldhaalfpcand)
+
+Pour vous aider à détecter les éventuels problèmes d'accessibilité, vous pouvez vous référer aux notices de l'entreprise `AcceDe Web`:
+- [Les notices AcceDe Web](https://www.accede-web.com/notices/)
 
 ### Fiche d'analyse
 👉 Renseignez le template d'analyse avec vos observations
