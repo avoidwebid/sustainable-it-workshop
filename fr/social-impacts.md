@@ -1,5 +1,23 @@
 # 1. Impacts sociaux du numérique
 
+## Introduction
+
+Les impacts sociaux du numérique sont multiples, aussi bien positifs que négatifs :
+
+| Positifs                 | Négatifs                                     |
+|--------------------------|----------------------------------------------|
+| Communication et partage | Harcèlement / isolement / fracture numérique |
+| Confort de vie           | Conditionnement                              |
+| Sécurisation             | Exploitation des données personnelles        |
+| ...                      | ...                                          |
+
+Pour ce workshop nous allons mettre le focus sur l'accès à l'information et la lute contre l'exclusion des outils numériques.
+Une des pistes de cette lute : garantir l'accessibilité des services numériques.
+
+Avec une question :
+
+> Et vous, vous pourriez vivre sans Internet ?
+
 ## 🧏 Sensibilisation à l'accessibilité numérique
 **⏱ 1 heure**
 ### Introduction
@@ -73,7 +91,8 @@ NVDA est une liseuse d'écran très utilisée qui permet aux aveugles et défici
 Avant tout : en matière d'accessibilité, rien ne remplace une analyse manuelle des services numériques.
 Mais un petit coup de main n'est pas de refus pour les détecter lorsqu'on débute.
 
-D'après une étude de l'entreprise `Deque` qui a créé l'outil `aXe Core`, il est possible d'automatiser 57% des règles du WCAG en niveau A et AA.
+D'après une étude de l'entreprise `Deque` qui a créé l'outil `aXe Core`, il est possible d'automatiser 20% à 30% des règles du WCAG en niveau A et AA.
+Ce n'est donc pas magique.
 
 ### Les assistants de diagnostique
 Pour la suite du workshop, vous serez amenés à utiliser les outils suivants :
