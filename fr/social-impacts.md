@@ -30,6 +30,7 @@ Il s'agit d'un sujet clef trop souvent laissé de côté, donnant lieu à des ab
 - [Qu'est-ce que l'accessibilité numérique et pourquoi c'est important ?](https://www.youtube.com/watch?v=fZo_ky7_XZ8)
 - [Quatre bonnes raisons de rendre son site internet accessible](https://www.youtube.com/watch?v=cPFYtFEEW7g)
 - [Trois idées reçues sur l'accessibilité numérique](https://www.youtube.com/watch?v=DO26F5oMXbc)
+- [Video Introduction to Web Accessibility and W3C Standards](https://www.w3.org/WAI/videos/standards-and-benefits/)
 
 ### Plan 
 1. Introduction
@@ -99,10 +100,13 @@ Pour la suite du workshop, vous serez amenés à utiliser les outils suivants :
 - Chromium devtools (lighthouse) ou Firefox devtools
 - [Fruggr (score social)](https://fruggr.io)
 - [aXe Core devtools](https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd)
-- [Assistant RGAA](https://chrome.google.com/webstore/detail/assistant-rgaa/cgpmofepeeiaaljkcclfldhaalfpcand)
+- [Color Contrast Checker](https://www.tpgi.com/color-contrast-checker/)
 
 Pour vous aider à détecter les éventuels problèmes d'accessibilité, vous pouvez vous référer aux notices de l'entreprise `AcceDe Web`:
 - [Les notices AcceDe Web](https://www.accede-web.com/notices/)
+
+Pour aller plus loin dans l'analyse
+- [Assistant RGAA](https://chrome.google.com/webstore/detail/assistant-rgaa/cgpmofepeeiaaljkcclfldhaalfpcand)
 
 ### Fiche d'analyse
 👉 Renseignez le template d'analyse avec vos observations
