@@ -43,6 +43,10 @@ Il s'agit d'un sujet clef trop souvent laissé de côté, donnant lieu à des ab
 
 > [Référentiel Général d'Amélioration de l'Accessibilité](https://accessibilite.numerique.gouv.fr/)
 
+### Le guide du WAI ARIA pour le développement de composants / patterns accessible
+
+> [ARIA Authoring Practices Guide (APG)](https://www.w3.org/WAI/ARIA/apg/patterns/)
+
 ## ⏸ Pause
 
 ## Utilisation d'un liseuse d'écran
