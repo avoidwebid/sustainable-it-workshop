@@ -1,0 +1,23 @@
+/* Your styles goes here. */
+.title {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.button {
+  display: inline-block;
+  cursor: pointer;
+  color: grey;
+  padding: 1rem 1rem;
+  margin: 0.2rem;
+  border-radius: 0.5rem;
+  border: 0.1rem grey solid;
+  font-weight: bold;
+  background-color: antiquewhite;
+}
+
+.menuWrapper {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
