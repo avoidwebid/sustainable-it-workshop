@@ -1,0 +1,61 @@
+{
+  "name": "carbon-shaker-infrastructure",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/carbon-shaker-infrastructure/src",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/webpack:webpack",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "target": "node",
+        "compiler": "tsc",
+        "outputPath": "dist/apps/carbon-shaker-infrastructure",
+        "main": "apps/carbon-shaker-infrastructure/src/main.ts",
+        "tsConfig": "apps/carbon-shaker-infrastructure/tsconfig.app.json",
+        "assets": ["apps/carbon-shaker-infrastructure/src/assets"],
+        "webpackConfig": "apps/carbon-shaker-infrastructure/webpack.config.js"
+      },
+      "configurations": {
+        "production": {
+          "optimization": true,
+          "extractLicenses": true,
+          "inspect": false
+        }
+      }
+    },
+    "serve": {
+      "executor": "@nrwl/js:node",
+      "options": {
+        "buildTarget": "carbon-shaker-infrastructure:build"
+      },
+      "configurations": {
+        "production": {
+          "buildTarget": "carbon-shaker-infrastructure:build:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/carbon-shaker-infrastructure/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "apps/carbon-shaker-infrastructure/jest.config.ts",
+        "passWithNoTests": true
+      },
+      "configurations": {
+        "ci": {
+          "ci": true,
+          "codeCoverage": true
+        }
+      }
+    }
+  },
+  "tags": []
+}

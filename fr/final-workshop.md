@@ -8,7 +8,7 @@
 
 ### Concevez le Carbon Shaker
 
-**⏱ 1 heure**
+**⏱ 45 heure**
 
 **🤝 Par groupes de 2 ou 3**
 
@@ -46,15 +46,15 @@
 
 👉 Clonez le projet `carbonshaker` en local sur votre poste
 
-`git clone https://github.com/digital4better/sustainable-it-workshop.git`
+>`git clone https://github.com/digital4better/sustainable-it-workshop.git`
 
 👉 Installez le projet d'étude à la racine du projet `sustainable-it-workshop/carbonshaker`
 
-`npm install`
+>`npm install`
 
 👉 Lancez le projet 
 
-`nx serve carbon-shaker`
+>`nx serve carbon-shaker`
 
 ## Eco-conception
 
@@ -104,7 +104,7 @@ Utiliser une API en backend pour effectuer ces appels a plusieurs avantages :
 
 👉 Lancez le projet
 
-`nx serve carbon-shaker-api`
+>`nx serve carbon-shaker-api`
 
 - Ajoutez une nouvelle ressource dans la classe `ProductResources` permettant la récupération d'une produit à partir de son code.
 - En sortie, cette ressource produira un objet de type `ProductBody`, créez la classe correspondante.
@@ -132,3 +132,22 @@ Notre version du service contient de nombreux problèmes d'accessibilité.
 👉 Détectez et corrigez les problèmes
 - Utiliser les outils précédemment utilisés
 
+### Infrastructure
+
+**⏱ 45 minutes**
+
+Vous allez gérer le déploiement de notre service numérique en fonction :
+- Du mix énergétique de la région
+- De la quantité d'eau chaude produite par les serveurs
+- Aléatoirement
+
+👉 Installez `VirtualBox`
+👉 Installez `Minikube`
+
+👉 Installez et lancez le projet carbon-shaker-infrastructure sous le dossier `apps/carbon-shaker-infrastructure`
+
+> `npm install`
+> `nx serve carbon-shaker-infrastructure`
+
+👉 Dé-commentez le menu de gestion des clusters dans le fichier `app.tsx` et `menu.tsx`
+👉 Testez le déploiement des pods en fonction des différents scénarios.

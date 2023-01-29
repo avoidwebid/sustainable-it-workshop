@@ -10,6 +10,7 @@ export function Menu() {
         <div className={styles.button} onClick={() => navigate("/history")}>📜 Historique</div>
         <div className={styles.button} onClick={() => navigate("/add")}>🍕 Repas</div>
         <div className={styles.button} onClick={() => navigate("/advices")}>👋 Conseil du jour</div>
+        {/*<div className={styles.button} onClick={() => navigate("/cluster")}>⚠️ Cluster</div>*/}
       </div>
       <Outlet/>
     </>

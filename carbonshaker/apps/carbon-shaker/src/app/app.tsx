@@ -7,6 +7,7 @@ import Shaker from "./pages/shaker";
 
 import styles from './app.module.scss';
 import Advices from "./pages/advices";
+import Cluster from "./pages/cluster";
 
 export function App() {
   return (
@@ -18,6 +19,7 @@ export function App() {
             <Route path={"history"} element={<History />}/>
             <Route path={"add"} element={<Meal />} />
             <Route path={"advices"} element={<Advices />} />
+            {/*<Route path={"cluster"} element={<Cluster />} />*/}
           </Route>
         </Routes>
     </>

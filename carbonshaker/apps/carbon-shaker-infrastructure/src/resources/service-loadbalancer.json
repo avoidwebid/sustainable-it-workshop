@@ -1,0 +1,19 @@
+{
+    "kind": "Service",
+    "apiVersion": "v1",
+    "metadata": {
+        "name": "gcs-service"
+    },
+    "spec": {
+        "ports": [
+            {
+                "port": 8765,
+                "targetPort": 80
+            }
+        ],
+        "selector": {
+            "app": "nginx"
+        },
+        "type": "LoadBalancer"
+    }
+}
