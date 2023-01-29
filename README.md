@@ -6,5 +6,5 @@ Ce workshop vous permettra de comprendre les enjeux environnementaux et sociaux 
 
 ## 1. [Maîtriser les impacts environnementaux du numérique.](fr/environmental-impacts.md)
 ## 2. [Maîtriser les Impacts sociaux du numérique.](fr/social-impacts.md)
-## 3. [Sustainable e-shop : le e-commerce responsable](fr/final-workshop.md)
+## 3. [🍹 CarbonShaker : sustainable food checker](fr/final-workshop.md)
 
