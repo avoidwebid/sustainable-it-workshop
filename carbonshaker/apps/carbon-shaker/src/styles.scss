@@ -1,0 +1,221 @@
+/* You can add global styles to this file, and also import other style files */
+*:focus {
+  outline: transparent;
+}
+
+.appBody {
+  padding: 1rem;
+  margin: 0 auto;
+  max-width: 65rem;
+  min-height: 30rem;
+  background-color: antiquewhite;
+}
+
+html,
+body {
+  font-family: unset !important;
+}
+
+header {
+  border-bottom: 4px solid #D3D3D3;
+  background-color: #eeeeee;
+}
+
+header>.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 1rem;
+  transition: all 0.2s ease;
+}
+
+main {
+  margin: 1rem 2rem;
+}
+
+h1 {
+  font-family: "Press Start 2P";
+  padding: 2rem 0 2rem 0;
+}
+
+h2 {
+  font-family: "Press Start 2P";
+  padding: 2rem 0 1rem 0;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Press Start 2P";
+  padding: 1rem 0 0.5rem 0;
+}
+
+.title {
+  font-family: "Press Start 2P";
+  font-size: 1.5rem;
+  padding: 2rem 0;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.reversedColumn {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+}
+
+.smallIcon {
+  margin: 0.1rem;
+  height: 2rem;
+}
+
+.mediumImage {
+  max-height: 10rem;
+  max-width: -webkit-fill-available;
+}
+
+.bigImage {
+  max-height: 18rem;
+  max-width: -webkit-fill-available;
+}
+
+.screenreader-text {
+  position: absolute;
+  left: -999px;
+  width: 1px;
+  height: 1px;
+  top: auto;
+}
+
+.screenreader-text:focus {
+  display: inline-block;
+  height: auto;
+  width: auto;
+  position: static;
+  margin: auto;
+}
+
+.card {
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  background-color: #eee;
+  border: #000 1px solid;
+}
+
+fieldset {
+  background-color: #eeeeee;
+}
+
+legend {
+  background-color: gray;
+  color: white;
+  padding: 5px 10px;
+}
+
+input {
+  margin: 5px;
+}
+
+.pie {
+  --p: 20;
+  --b: 10px;
+  --c: #209cee;
+  --w: 80px;
+
+  width: var(--w);
+  aspect-ratio: 1;
+  position: relative;
+  display: inline-grid;
+  margin: 5px;
+  place-content: center;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.pie:before,
+.pie:after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+}
+
+.pie:before {
+  inset: 0;
+  background:
+    radial-gradient(farthest-side, var(--c) 98%, #0000) top/var(--b) var(--b) no-repeat,
+    conic-gradient(var(--c) calc(var(--p)*1%), #0000 0);
+  -webkit-mask: radial-gradient(farthest-side, #0000 calc(99% - var(--b)), #000 calc(100% - var(--b)));
+  mask: radial-gradient(farthest-side, #0000 calc(99% - var(--b)), #000 calc(100% - var(--b)));
+}
+
+.pie:after {
+  inset: calc(50% - var(--b)/2);
+  background: var(--c);
+  transform: rotate(calc(var(--p)*3.6deg)) translateY(calc(50% - var(--w)/2));
+}
+
+.animate {
+  animation: p 1s .5s both;
+}
+
+.no-round:before {
+  background-size: 0 0, auto;
+}
+
+.no-round:after {
+  content: none;
+}
+
+@keyframes p {
+  from {
+    --p: 0
+  }
+}
+
+.accordeon {
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  background-color: #eee;
+  border: #000 1px solid;
+}
+
+.accordeon .state {
+  transform: rotate(270deg);
+  width: fit-content;
+}
+
+.accordeon.close .state {
+  transform: rotate(90deg);
+}
+
+.accordeon.close .content {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.accordeon.hidden .content {
+  display: none;
+}
