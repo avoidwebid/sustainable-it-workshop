@@ -101,6 +101,11 @@ Utiliser une API en backend pour effectuer ces appels a plusieurs avantages :
     </dependency>
 </dependencies>
 ```
+
+👉 Lancez le projet
+
+`nx serve carbon-shaker-api`
+
 - Ajoutez une nouvelle ressource dans la classe `ProductResources` permettant la récupération d'une produit à partir de son code.
 - En sortie, cette ressource produira un objet de type `ProductBody`, créez la classe correspondante.
 - Remplacez l'appel du front par un appel au back `http://localhost:8080/product/${barcode}` dans `food-api.ts`.
@@ -120,33 +125,10 @@ Utiliser une API en backend pour effectuer ces appels a plusieurs avantages :
 
 ### Accessibilité
 
+**⏱ 45 minutes**
+
 Notre version du service contient de nombreux problèmes d'accessibilité.
 
 👉 Détectez et corrigez les problèmes
 - Utiliser les outils précédemment utilisés
 
-### Grid Intensity Awareness
-
-👉 Ajoutez une conscience écologique à votre application.
-
-#### Am I grey or green ?
-
-#### CO2.js
-
-#### RTE Eco2mix Régional
-
-## Inclusion et Accessibilité
-
-Une interface simple : site de promotion des chats dans la musique.
-
-### Amélioration de l'accessibilité
-
-👉 
-
-### Librairie de composants accessibles
-
-👉 Ajoutez de Radix au projet et remplacement des composants existants
-
-### Kubernetes
-- Installer virtualbox
-- Installer minikube avec le driver virtualbox
