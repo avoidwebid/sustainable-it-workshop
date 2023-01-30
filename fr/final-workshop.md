@@ -8,7 +8,7 @@
 
 ### Concevez le Carbon Shaker
 
-**⏱ 45 heure**
+**⏱ 45 minutes**
 
 **🤝 Par groupes de 2 ou 3**
 
@@ -46,7 +46,7 @@
 
 👉 Clonez le projet `carbonshaker` en local sur votre poste
 
->`git clone https://github.com/digital4better/sustainable-it-workshop.git`
+>`git clone https://github.com/avoidwebid/sustainable-it-workshop`
 
 👉 Installez le projet d'étude à la racine du projet `sustainable-it-workshop/carbonshaker`
 
