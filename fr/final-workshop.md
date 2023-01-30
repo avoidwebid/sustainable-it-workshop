@@ -104,7 +104,19 @@ Utiliser une API en backend pour effectuer ces appels a plusieurs avantages :
 </dependencies>
 ```
 
+- [Installez](https://download.oracle.com/java/19/latest/jdk-19_windows-x64_bin.msi) Java dans une version > 17
+- Éditez votre `.bashrc` dans votre répertoire `home` pour y ajouter les lignes :
+
+> `export JAVA_HOME='/c/Program Files/Java/jdk-19'`
+> 
+> `export PATH=$JAVA_HOME/bin:$PATH`
+
+
+- Redémarrer votre bash, ou `source .bashrc`
+
+
 👉 Lancez le projet
+
 
 >`nx serve carbon-shaker-api`
 
