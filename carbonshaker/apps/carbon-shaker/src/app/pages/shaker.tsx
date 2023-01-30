@@ -6,6 +6,7 @@ import Product from "../components/product";
 
 export function Shaker() {
   const [barcode, setBarcode] = useState('');
+  const [isShapeAPIAvailable, setShapeAPIAvailable] = useState(true);
   const [product, setProduct] = useState<OpenFoodproduct | null>(null);
   const videoRef = useRef<HTMLVideoElement>(null);
 
@@ -33,6 +34,8 @@ export function Shaker() {
           setBarcode(result[0].rawValue);
         }
       }, 1000)
+    } else {
+      setShapeAPIAvailable(false);
     }
     return (() => {});
   }, [])
@@ -47,6 +50,7 @@ export function Shaker() {
 
   return (
     <div>
+        { !isShapeAPIAvailable && <p>La fonctionnalité n'est pas disponible sur votre navigateur. Le service client ❤️</p>}
         <video id="video" ref={videoRef} width="300" className={styles.video}></video>
         <div>
           <code>{`${barcode}`}</code>
