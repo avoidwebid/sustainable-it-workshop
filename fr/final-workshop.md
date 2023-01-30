@@ -123,6 +123,17 @@ Utiliser une API en backend pour effectuer ces appels a plusieurs avantages :
 - Utilisez la ressource suivante : [baeldung : Spring Cache Tutorial](https://www.baeldung.com/spring-cache-tutorial#1-cacheable).
 - Constatez qu'en cherchant un produit pour la seconde fois, la réponse est plus rapide.
 
+👉 **[BONUS]** Implémentez la page Historique
+- Lorsqu'un produit est scanné, enregistrez le en `sessionStorage` du navigateur
+- Au moment de l'affichage de la page `historique`, charger une liste depuis ce `sessionStorage`
+
+👉 **[BONUS]** Rendez le service disponible hors-ligne
+- Mettre en cache navigateur les ressources du service
+- Lorsqu'un produit est scanné hors connexion :
+  - Chercher en `sessionStorage` si le produit a déjà été scanné
+  - Sinon, garder le code-barre en `sessionStorage`
+  - Au retour de la connexion, charger les produit dont les code-barres ont été scannés hors-ligne.
+
 ### Accessibilité
 
 **⏱ 45 minutes**
