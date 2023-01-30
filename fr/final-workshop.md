@@ -51,6 +51,7 @@
 👉 Installez le projet d'étude à la racine du projet `sustainable-it-workshop/carbonshaker`
 
 >`npm install`
+> 
 >`npm i -g nx`
 
 👉 Lancez le projet 
@@ -72,7 +73,7 @@ La détection est faite via l'utilisation de l'API `BarcodeDetector` disponible 
 L'API n'est pas implémentée sous Firefox. 
 Vous allez utilisez le `lazy-loading` combiné au `code-splitting` pour ne charger les librairies et composants supplémentaires qu'en cas de besoin.
 
-👉 Ajoutez la librairie `react-zxing` permettant la lecture des codes-barres sur tous les navigateurs : [npm react-zxing](https://www.npmjs.com/package/react-zxing)
+👉 Ajoutez la librairie `react-zxing` permettant la lecture des codes-barres sur tous les navigateurs : [react-zxing](https://github.com/nomadoda/react-zxing)
 
 👉 Créez un nouveau composant `universal-shaker.tsx` (sous `/pages`) et utilisez les ressources suivantes pour le charger uniquement au besoin
 - [React route-based code-splitting](https://reactjs.org/docs/code-splitting.html#route-based-code-splitting)
@@ -159,6 +160,7 @@ Vous allez gérer le déploiement de notre service numérique en fonction :
 👉 Installez et lancez le projet carbon-shaker-infrastructure sous le dossier `apps/carbon-shaker-infrastructure`
 
 > `npm install`
+> 
 > `nx serve carbon-shaker-infrastructure`
 
 👉 Dé-commentez le menu de gestion des clusters dans le fichier `app.tsx` et `menu.tsx`
