@@ -51,6 +51,7 @@
 👉 Installez le projet d'étude à la racine du projet `sustainable-it-workshop/carbonshaker`
 
 >`npm install`
+>`npm i -g nx`
 
 👉 Lancez le projet 
 
