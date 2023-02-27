@@ -11,8 +11,8 @@ Les impacts sociaux du numérique sont multiples, aussi bien positifs que négat
 | Sécurisation             | Exploitation des données personnelles        |
 | ...                      | ...                                          |
 
-Pour ce workshop nous allons mettre le focus sur l'accès à l'information et la lute contre l'exclusion des outils numériques.
-Une des pistes de cette lute : garantir l'accessibilité des services numériques.
+Pour ce workshop nous allons mettre le focus sur l'accès à l'information et la lutte contre l'exclusion des outils numériques.
+Une des pistes : garantir l'accessibilité des services numériques.
 
 Avec une question :
 
