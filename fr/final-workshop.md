@@ -22,7 +22,14 @@
 
 #### Conception fonctionnelle
   - Posez des questions à votre client, (ré)interrogez le besoin.
-  - Dessinez des écrans (fil de fer) et des parcours utilisateurs.
+    - Existe-t-il des produits existants sur le marché ?
+    - Avons-nous besoin d'un nouveau service, si oui, quels éléments différenciants.
+  - Dessinez des écrans (wireframes) et des parcours utilisateurs.
+
+
+  - Eco-conception
+    - Quel référentiel pour garantir l'éco-conception ?
+    - Indiquez sur vos écrans les contraintes d'écoconception
 
 
   - Accessibilité
@@ -36,10 +43,11 @@
 
 
   - Quel hébergement ? 
-    - Cloud ou pas ?
-    - Quelle disponibilité ?
-    - Comment / Où est stocké notre référentiel ?
-    - Comment / Où sont stockées les données de nos utilisateurs ?
+    - Cloud ou pas ? Quel hébergeur, quelle énergie consommée ?
+    - A-ton besoin que le service soit disponible en permanence ?
+    - Comment / Où est stocké nos bases de données (référentiel allimentaire par exemple) ?
+    - Comment / Où sont stockées les données utilisateurs ?
+
 
 ## Projet d'étude
 👉 Téléchargez et installez `nodejs` en version `lts`
