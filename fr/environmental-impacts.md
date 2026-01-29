@@ -55,6 +55,19 @@ Les autres seront amenés à noter de 👍1 à 🖐5 leur prestation sur les deu
 
 # ⏸ Pause
 
+# ♼ Le cycle de vie des IA
+
+Nous vous proposons un atelier en groupe pour l'exploration du cycle de vie d'un service exploitant l'IA.
+Récupérer les planches et cartes mis à votre disposition.
+
+## Coompléter le plateau
+
+Placez les cartes des différentes composantes du cycle de vie de notre service numérique à base d'IA de sorte que l'ensemble de ces impacts (scope 2 et 3) apparaissent.
+
+## Restitution & échanges
+
+Les fournisseurs d'assistants IA ne communiquent pas tous de la même manière sur leurs impacts. Toutes les composantes du cycle de vie de leurs services ne sont pas couvertes et les `scopes` ne sont pas toujours respectés. Ceci rend impossible la comparaison d'un service à l'autre. Il est donc important de veiller à ce que ces rapports d'impacts soient certifiés par des organismes indépendants.
+
 # 🔥 Architecture pour un numérique soutenable
 
 Vous allez réaliser un atelier inspiré d'**🔥Xtreme Tech watch**.
@@ -75,24 +88,27 @@ Quelles ont été l'évolution des technologies de virtualisation des serveurs e
 
 `#docker` `#kubernetes`
 
-### 2. Serverless Architecture
+### 2. Serverless
 C'est quoi le `serverless` et en quoi ça consomme moins de ressources / d'énergie ?
 
-### 3. JAMStack Architecture
-Vous avez dit `JAMStack` ? C'est quoi et quels sont les avantages d'un point de vue environnemental ?
+### 3. Architecture orientée évenements (Event Driven Architecture)
+C'est quoi ce type d'architecture et pourquoi s'intéresser au évenements ? Et pour la planète, c'est vraiement mieux ?
 
 ### 4. GraphQL API
 `GraphQL` c'est quoi ? Et par rapport aux API `REST` ? En quoi c'est mieux pour la planète ?
 
-### 6. Islands Architecture
-Qu'est-ce que le concept de micro-frontend ou encore les `Islands Architecture` ?
-
-`#SSR` `#CSR` `#SSG`
+### 6. CDN & Edge computing
+En quoi consiste ce choix d'architecture, quels sont ces avantages, pourquoi l'`edge computing` va plus loin que les `CDN` ?
 
 ### 7. Progressive Web Apps
 C'est quoi les `PWA` (Progressive Web Apps) ? 
-
 Pourquoi c'est plus inclusif qu'une application mobile ?
+
+## 8. FinOps & GreenOps
+Quels sont les avantages d'une démarche `FinOps`, ou même `GreenOps` et quels sont les conditions nécessaires pour réussir à la mettre en place ?
+
+## 9. SSR | SSG | CSR
+Que signifient ces étranges acronymes et dans quels cas ils sont utiles ? Et bien sûr d'un point de vue environnemental, ça donne quoi ?
 
 ## Faites votre choix en solo
 **⏱ 5 minute**
